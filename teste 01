@@ -1,0 +1,5 @@
+n = float(input('digite um valor:'))
+d = n*2
+t = n*3
+r = n**(1/2)
+print('O dobro de {} e {} \nO triplo de {} e {} \nA raiz quadrada de {} e {:.2f}'.format(n, d, n, t , n, r))
